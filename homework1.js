@@ -7,21 +7,13 @@ console.log("------------------------------------------------------------");
 
 //this function print all types variables and their types
 function typesOfVariables() {
-    var num;
-    var bool;
-    var str;
-    var obj;
-    var arr;
-    var func;
-    var undef;
-
-    num = 256;
-    bool = true;
-    str = "it_string";
-    obj = {};
-    arr = [1, 2, 3, 4, 5];
-    func = function() {}
-    undef = undefined;
+    var num = 256;
+    var bool = true;
+    var str = "it_string";
+    var obj = {};
+    var arr = [1, 2, 3, 4, 5];
+    var func = function() {};
+    var undef = undefined;;
 
     console.log("It's easy types");
     console.log("num = ", typeof(num));
@@ -149,13 +141,10 @@ console.log(true ? "? is working!":"? is not working!");
 
 //function write song about sun and mother
 function songAboutSun() {
-    var str;
-    var arr;
+    var str = "Нехай завжди буд";
+    var arr = ["е сонце,", "е небо,", "е мама,", "у я."];
     var newArr = [];
     var i;
-
-    str = "Нехай завжди буд";
-    arr = ["е сонце,", "е небо,", "е мама,", "у я."];
 
     for(i in arr) {
         newArr = newArr.concat(str + arr[i]);
