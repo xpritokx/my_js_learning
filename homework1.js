@@ -124,7 +124,7 @@ console.log('2++ = ', i++);
 i = 2;
 console.log('2-- = ', --i);
 console.log('-2 = ', -2);
-console.log('+'2' = ', +'2');
+console.log('+\'2\' = ', +'2');
 
 //binary operators
 console.log('binary operators is "+, -, *, /"...');
