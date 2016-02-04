@@ -25,7 +25,7 @@ function typesOfVariables() {
     console.log('arr = ', typeof(arr));
     console.log('func = ', typeof(func));
 
-    console.log('It's special types');
+    console.log('It\'s special types');
     console.log('undef = ', typeof(undef));
 }
 
