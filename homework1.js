@@ -15,7 +15,7 @@ function typesOfVariables() {
     var func = function() {};
     var undef = undefined;;
 
-    console.log('It's easy types');
+    console.log('It\'s easy types');
     console.log('num = ', typeof(num));
     console.log('bool = ', typeof(bool));
     console.log('str = ', typeof(str));
