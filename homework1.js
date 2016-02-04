@@ -20,7 +20,7 @@ function typesOfVariables() {
     console.log('bool = ', typeof(bool));
     console.log('str = ', typeof(str));
 
-    console.log('It's hard types');
+    console.log('It\'s hard types');
     console.log('obj = ', typeof(obj));
     console.log('arr = ', typeof(arr));
     console.log('func = ', typeof(func));
